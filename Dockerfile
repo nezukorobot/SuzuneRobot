@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/SuzuneBot
-RUN git clone -b shiken https://github.com/iisgaurav/SuzuneBot /root/SuzuneBot
+RUN git clone -b shiken https://github.com/desinobita/SuzuneRobot /root/SuzuneBot
 WORKDIR /root/SuzuneBot
 
 #Copy config file to /root/SuzuneBot/SuzuneBot
