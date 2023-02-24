@@ -69,8 +69,6 @@ RUN git clone -b shiken https://github.com/desinobita/SuzuneRobot /root/SuzuneRo
 WORKDIR /root/SuzuneBot
 
 #Copy config file to /root/SuzuneBot/SuzuneBot
-COPY ./SuzuneRobot/sample_config.py ./SuzuneRobot/config.py* /root/SuzuneRobot/SuzuneRobot/
-
 ENV PATH="/home/bot/bin:$PATH"
 
 # Install requirements
